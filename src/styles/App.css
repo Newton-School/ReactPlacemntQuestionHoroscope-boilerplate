@@ -1,0 +1,51 @@
+body{
+margin: 0;
+background-color: black;
+color: white;
+}
+
+.App{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Amiri', serif;
+    overflow: hidden;
+}
+
+.HoroscopeTitle,.SelectSunsign{
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.SelectSunsign{
+    font-size: 32px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 100px;
+}
+
+.buttons{
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: large;
+}
+
+.Reloadbutton{
+    background-color: blue;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 15px;
+    color: azure;
+}
